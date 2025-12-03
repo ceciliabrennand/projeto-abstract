@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    header{
+        flex-flow: row nowrap;
+        height: 100px;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+
+    header > nav{
+        display: flex;
+        flex-flow: column wrap;
+
+    }
+
+    header > nav > a#submit{
+        margin-bottom: 6px;
+    }
+
+    div#searchbar{
+        height: 200px;
+        box-sizing: border-box;
+    }
+
+    div#searchbar h1{
+        font-size: 2em;
+    }
+
+    div#searchbar input#isearch{
+        min-width: 350px;
+    }
+
+    div#searchbar > form{
+        transform: translateX(3%);
+    }
+
+    main{
+        flex-flow: column wrap;
+    }
+
+    main > article{
+        flex: 0 1 auto;
+        margin: 0px 5px;
+    }
+
+    footer{
+        justify-content: center;
+    }
+
+    footer > div.footer{
+        min-width: 50px;
+        max-width: 80px;
+        margin: 30px 50px;
+    }
+
+    footer > aside{
+        padding-bottom: 0px;
+    }
+}
