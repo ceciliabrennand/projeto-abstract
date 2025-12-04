@@ -130,7 +130,7 @@ main > article > div.texto > summary > a{
     color: var(--cor1);
 }
 
-main > article > summary > a:hover{
+main > article > div.texto > summary > a:hover{
     text-decoration: underline;
 }
 
